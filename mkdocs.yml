@@ -203,6 +203,7 @@ extra_javascript:
   - extra/js/typing.js # 打字机效果
   - extra/js/mathjax.js # 保证数学表达式能正确显示的运行时环境（下面的也是）
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - extra/js/bg.js # 背景图片支持
 
 extra_css:
   - extra/css/extra.css # 加载自定义的样式
