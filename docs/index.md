@@ -6,11 +6,6 @@ comments: true
 <h1 align="center">Pretty-Mkdocs</h1>
 
 <p align="center">
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/releases"><img alt="Version" src="https://img.shields.io/github/v/release/Xiaokang2022/Pretty-Mkdocs?include_prereleases&logo=github&label=Version" title="Latest Version" /></a>
-<a href="https://pypistats.org/packages/Pretty-Mkdocs"><img alt="Downloads" src="https://img.shields.io/pypi/dm/Pretty-Mkdocs?label=Downloads&logo=pypi&logoColor=skyblue" title="Downloads" /></a>
-<a href="https://pepy.tech/project/Pretty-Mkdocs"><img alt="Total Downloads" src="https://img.shields.io/pepy/dt/Pretty-Mkdocs?logo=pypi&logoColor=gold&label=Total%20Downloads" title="Total Downloads" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs"><img alt="Size" src="https://img.shields.io/github/languages/code-size/Xiaokang2022/Pretty-Mkdocs?label=Size&logo=github" title="Code Size"/></a>
-<br/>
 <a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/Xiaokang2022/Pretty-Mkdocs?label=Watchers&logo=github&style=flat" title="Watchers" /></a>
 <a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/forks"><img alt="Forks" src="https://img.shields.io/github/forks/Xiaokang2022/Pretty-Mkdocs?label=Forks&logo=github&style=flat" title="Forks" /></a>
 <a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Xiaokang2022/Pretty-Mkdocs?label=Stars&color=gold&logo=github&style=flat" title="Stars" /></a>
@@ -28,3 +23,7 @@ comments: true
         </picture>
     </a>
 </p>
+
+!!! note "站点统计"
+
+    本站己运行 <span id="timeDate"></span><span id="times"></span>，共有 `#!py {{ pages }}` 个页面，约 `#!py {{ words }}` 个字/词，`#!py {{ codes }}` 行代码
