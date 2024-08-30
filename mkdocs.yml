@@ -182,9 +182,9 @@ theme: # 此项各个设定因主题而异
         icon: material/weather-night
         name: 切换至系统主题
   font: false # 避免从谷歌加载字体导致网页加载变慢（具体参数可以在自定义 CSS 中指定）
-  logo: logo.png # 页面左上角徽标
-  favicon: logo.png # 网页的图标
+  favicon: images/favicon.png # 网页的图标
   icon: # 替换掉默认的图标
+    logo: simple/materialformkdocs # 页面左上角徽标
     previous: fontawesome/solid/angle-left # 左下角向前翻页的图标
     next: fontawesome/solid/angle-right # 右下角向后翻页的图标
     repo: fontawesome/brands/github # 右上角仓库图标
