@@ -20,15 +20,8 @@ A super good-looking document or blog website template based on GitHub Pages!
 <a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/discussions"><img alt="Discussions" src="https://img.shields.io/github/discussions/Xiaokang2022/Pretty-Mkdocs?label=Discussions&logo=github" title="Discussions" /></a>
 </p>
 
-<p align="center">
-    <a href="https://star-history.com/#Xiaokang2022/Pretty-Mkdocs&Date">
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date&theme=dark" />
-            <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date" />
-            <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date" />
-        </picture>
-    </a>
-</p>
+![](https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date&theme=light#only-light)
+![](https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date&theme=dark#only-dark)
 
 !!! note "站点统计"
 
