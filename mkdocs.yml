@@ -207,12 +207,6 @@ extra: # 额外设定
     - icon: fontawesome/brands/github
       link: https://github.com/Xiaokang2022/Pretty-Mkdocs/
       name: GitHub Repository
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/Pretty-Mkdocs/
-      name: PyPI
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/498105668
-      name: 哔哩哔哩
     - icon: fontawesome/solid/paper-plane
       link: mailto:2951256653@qq.com
       name: Contact the author
@@ -257,6 +251,7 @@ extra_javascript:
   - extra/javascript/time.js # 网站运行时间
   - extra/javascript/mathjax.js # 数学表达式
   - extra/javascript/tablesort.js # 表格排序功能
+  - extra/javascript/autoload.js # 看板娘
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # 数学表达式运行环境
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 表格排序功能运行环境（默认文本类型）
   - https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.date.min.js # 表格排序功能（日期类型）
@@ -267,6 +262,7 @@ extra_javascript:
 
 extra_css:
   - extra/css/extra.css # 加载自定义的样式
+  - extra/css/waifu.css # 看板娘的样式
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css # 设置字体（霞鹜文楷）
 
 plugins:
@@ -299,3 +295,10 @@ plugins:
 nav:
   - Home / 主页:
       - Homepage / 主页: index.md
+      - License / 项目许可: LICENSE.md
+
+  - Introduction / 网站介绍:
+      - introduction/index.md
+
+  - Tutorials / 搭建教程:
+      - tutorials/index.md
