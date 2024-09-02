@@ -7,17 +7,15 @@ comments: true
 
 <p align="center">
 基于 GitHub Pages 的超级好看的文档或博客网站模板！
-<br/>
-A super good-looking document or blog website template based on GitHub Pages!
 </p>
 
 <p align="center">
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/Xiaokang2022/Pretty-Mkdocs?label=Watchers&logo=github&style=flat" title="Watchers" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/forks"><img alt="Forks" src="https://img.shields.io/github/forks/Xiaokang2022/Pretty-Mkdocs?label=Forks&logo=github&style=flat" title="Forks" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Xiaokang2022/Pretty-Mkdocs?label=Stars&color=gold&logo=github&style=flat" title="Stars" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Xiaokang2022/Pretty-Mkdocs?label=Issues&logo=github" title="Issues" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Xiaokang2022/Pretty-Mkdocs?label=Pull%20Requests&logo=github" title="Pull Requests" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/discussions"><img alt="Discussions" src="https://img.shields.io/github/discussions/Xiaokang2022/Pretty-Mkdocs?label=Discussions&logo=github" title="Discussions" /></a>
+<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/watchers"><img alt="关注" src="https://img.shields.io/github/watchers/Xiaokang2022/Pretty-Mkdocs?label=Watchers&logo=github&style=flat" title="关注" /></a>
+<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/forks"><img alt="复刻" src="https://img.shields.io/github/forks/Xiaokang2022/Pretty-Mkdocs?label=Forks&logo=github&style=flat" title="复刻" /></a>
+<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/stargazers"><img alt="星标" src="https://img.shields.io/github/stars/Xiaokang2022/Pretty-Mkdocs?label=Stars&color=gold&logo=github&style=flat" title="星标" /></a>
+<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/issues"><img alt="议题" src="https://img.shields.io/github/issues/Xiaokang2022/Pretty-Mkdocs?label=Issues&logo=github" title="议题" /></a>
+<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/pulls"><img alt="拉取请求" src="https://img.shields.io/github/issues-pr/Xiaokang2022/Pretty-Mkdocs?label=Pull%20Requests&logo=github" title="拉取请求" /></a>
+<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/discussions"><img alt="讨论" src="https://img.shields.io/github/discussions/Xiaokang2022/Pretty-Mkdocs?label=Discussions&logo=github" title="讨论" /></a>
 </p>
 
 ![](https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date&theme=light#only-light)

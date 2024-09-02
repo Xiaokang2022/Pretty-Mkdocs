@@ -6,8 +6,6 @@ comments: true
 <h1 align="center">Pretty-Mkdocs</h1>
 
 <p align="center">
-基于 GitHub Pages 的超级好看的文档或博客网站模板！
-<br/>
 A super good-looking document or blog website template based on GitHub Pages!
 </p>
 
