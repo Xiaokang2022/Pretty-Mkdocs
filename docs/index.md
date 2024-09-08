@@ -1,5 +1,5 @@
 ---
-statistics: True
+statistics: true
 comments: true
 ---
 
@@ -23,4 +23,4 @@ comments: true
 
 !!! note "站点统计"
 
-    本站己运行 <span id="timeDate"></span><span id="times"></span>，共有 `#!py {{ pages }}` 个页面，约 `#!py {{ words }}` 个字/词，`#!py {{ codes }}` 行代码
+    本站己运行 <span id="timeDate"></span><span id="times"></span>，共有 `#!py {{ pages }}` 个页面，`#!py {{ words }}` 个字，`#!py {{ codes }}` 行代码，`#!py {{ images }}` 幅图片，总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>

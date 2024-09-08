@@ -77,25 +77,6 @@ extra: # 额外设定
           data: -1
           note: Thanks for your feedback!
 
-plugins:
-  - search
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-      locale: en
-  # - git-authors: # 当配置不好下方的 git-committers 时可采用这个
-  - git-committers:
-      repository: Xiaokang2022/Pretty-Mkdocs
-      branch: docs
-      token: !ENV ["GH_TOKEN"] # 需要自行在终端中设置临时环境变量，强烈不建议显式地在此处设置 token
-  - glightbox:
-      background: none
-  - statistics
-  - minify:
-      minify_html: true
-      htmlmin_opts:
-        remove_comments: true
-
 nav:
   - Home:
       - Homepage: index.md

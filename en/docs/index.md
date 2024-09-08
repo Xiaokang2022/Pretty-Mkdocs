@@ -1,5 +1,5 @@
 ---
-statistics: True
+statistics: true
 comments: true
 ---
 
@@ -23,4 +23,4 @@ A super good-looking document or blog website template based on GitHub Pages!
 
 !!! note "站点统计"
 
-    本站己运行 <span id="timeDate"></span><span id="times"></span>，共有 `#!py {{ pages }}` 个页面，约 `#!py {{ words }}` 个字/词，`#!py {{ codes }}` 行代码
+    This site has been running for <span id="timeDate-en"></span><span id="times-en"></span>, and there are `#!py {{ pages }}` page, `#!py {{ words }}` words, `#!py {{ codes }}` lines of code, `#!py {{ images }}` images, <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span> views
