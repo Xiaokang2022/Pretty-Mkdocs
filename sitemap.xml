@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/</loc>
+         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/en/</loc>
          <lastmod>2024-09-09</lastmod>
     </url>
     <url>
-         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/LICENSE/</loc>
+         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/en/LICENSE/</loc>
          <lastmod>2024-09-09</lastmod>
     </url>
     <url>
-         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/introduction/</loc>
+         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/en/introduction/</loc>
          <lastmod>2024-09-09</lastmod>
     </url>
     <url>
-         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/tutorials/</loc>
+         <loc>https://Xiaokang2022.github.io/Pretty-Mkdocs/en/tutorials/</loc>
          <lastmod>2024-09-09</lastmod>
     </url>
 </urlset>
