@@ -2,7 +2,7 @@ site_name: Pretty-Mkdocs # 站点名称
 site_url: https://Xiaokang2022.github.io/Pretty-Mkdocs/ # 站点链接
 repo_url: https://github.com/Xiaokang2022/Pretty-Mkdocs # 仓库地址
 repo_name: Xiaokang2022/Pretty-Mkdocs # 仓库名称
-edit_uri: edit/docs/docs # 编辑地址
+edit_uri: edit/main/docs # 编辑地址
 edit_uri_template: null # 编辑地址模板（默认值）
 site_description: Pretty-Mkdocs 的官方网站 # 站点描述
 site_author: Xiaokang2022 # 站点作者

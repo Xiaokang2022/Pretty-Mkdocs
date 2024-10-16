@@ -1,7 +1,7 @@
 INHERIT: ../mkdocs.yml
 
 site_url: https://Xiaokang2022.github.io/Pretty-Mkdocs/en/ # 站点链接
-edit_uri: edit/docs/en/docs # 编辑地址
+edit_uri: edit/main/en/docs # 编辑地址
 site_description: Official website of Pretty-Mkdocs # 站点描述
 copyright: <a href="#__consent">Change Cookie Settings</a><br/>Copyright &copy; 2024 Xiaokang2022 # 版权信息和 Cookie 设置
 site_dir: ../site/en # 网站目录（默认值）
@@ -17,7 +17,7 @@ theme: # 此项各个设定因主题而异
     - media: "(prefers-color-scheme: light)" # 亮色主题
       scheme: default
       primary: white
-      accent: purple
+      accent: orange
       toggle:
         icon: material/weather-sunny
         name: Light Mode
@@ -39,7 +39,7 @@ extra: # 额外设定
       lang: en
   status: # 元信息状态标识
     new: Recently added
-    deprecated: Will be removed soon
+    deprecated: Deprecated
   social: # 社交联系方式（页面右下角内容）
     - icon: fontawesome/brands/github
       link: https://github.com/Xiaokang2022/Pretty-Mkdocs/
