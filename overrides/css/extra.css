@@ -8,7 +8,7 @@
 [data-md-color-scheme="default"] {
     --md-primary-fg-color: rgba(232, 232, 232, 0.7);
     --md-header-bg-color: rgba(232, 232, 232, 0.7);
-    --md-typeset-a-color: #008800;
+    --md-typeset-a-color: forestgreen;
     --md-footer-bg-color: #f6f6f6;
     --md-footer-bg-color--dark: #f6f6f6;
     --md-footer-fg-color: #222;
@@ -42,12 +42,6 @@
     background-color: var(--md-header-bg-color);
 }
 
-/*给按键（kbd）加阴影*/
-kbd:hover {
-    box-shadow: #787878 0px 1px 1px;
-    cursor: pointer;
-}
-
 /*居中 mermaid 绘制的图*/
 .mermaid {
     text-align: center;
@@ -73,6 +67,30 @@ audio::-webkit-media-controls-enclosure {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/*图片标题小字号*/
+figcaption {
+    font-size: small;
+}
+
+/*表格居中*/
+.md-typeset__scrollwrap {
+    text-align: center;
+}
+
+/*打印时隐藏部分元素*/
+@media print {
+    .md-tooltip2 {
+        display: none;
+    }
+}
+
+/*屏幕过窄时隐藏音乐播放器*/
+@media screen and not (min-width: 32em) {
+    audio.md-header__option {
+        display: none;
+    }
 }
 
 /*打字机文本*/
