@@ -4,7 +4,11 @@
 {% block announce %}
 {{ super() }}
 
-<p><span class="text"></span></p>
+{% if config.theme.language == "zh" %}
+欢迎来到 Pretty-Mkdocs 的官方网站，希望本网站能对您有一定的帮助！
+{% else %}
+Welcome to the official website of Pretty-Mkdocs, I hope this website can be of some help to you!
+{% endif %}
 
 {% endblock %}
 

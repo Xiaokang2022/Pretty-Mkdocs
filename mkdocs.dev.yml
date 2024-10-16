@@ -183,6 +183,7 @@ theme: # 此项各个设定因主题而异
         icon: material/weather-night
         name: 暗黑主题
   font: false # 避免从谷歌加载字体导致网页加载变慢（具体参数可以在自定义 CSS 中指定）
+  # favicon: images/favicon.png # 网页的图标
   icon: # 替换掉默认的图标
     logo: simple/materialformkdocs # 页面左上角徽标
     repo: fontawesome/brands/github # 右上角仓库图标
@@ -240,6 +241,9 @@ extra: # 额外设定
 extra_javascript:
   - javascript/shortcuts.js # 绑定左右键换页的键盘快捷键
   - javascript/click-colorful.js # 鼠标点击效果
+  - javascript/typing.js # 打字机效果
+  - javascript/canvas-nest.js # 背景效果
+  - javascript/time.js # 网站运行时间
   - javascript/mathjax.js # 数学表达式
   - javascript/tablesort.js # 表格排序功能
   - https://unpkg.com/mathjax@latest/es5/tex-mml-chtml.js # 数学表达式运行环境
@@ -249,6 +253,8 @@ extra_javascript:
   - https://unpkg.com/tablesort@latest/dist/sorts/tablesort.filesize.min.js # 表格排序功能（文件大小类型）
   - https://unpkg.com/tablesort@latest/dist/sorts/tablesort.monthname.min.js # 表格排序功能（月份名称类型）
   - https://unpkg.com/tablesort@latest/dist/sorts/tablesort.number.min.js # 表格排序功能（数字类型）
+  - https://unpkg.com/oh-my-live2d@latest
+  - javascript/oml2d.js # 看板娘配置
 
 extra_css:
   - css/extra.css # 加载自定义的样式
