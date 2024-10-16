@@ -1,0 +1,89 @@
+INHERIT: ../mkdocs.yml
+
+site_url: https://Xiaokang2022.github.io/Pretty-Mkdocs/en/ # 站点链接
+edit_uri: edit/docs/en/docs # 编辑地址
+site_description: Official website of Pretty-Mkdocs # 站点描述
+copyright: <a href="#__consent">Change Cookie Settings</a><br/>Copyright &copy; 2024 Xiaokang2022 # 版权信息和 Cookie 设置
+site_dir: ../site/en # 网站目录（默认值）
+
+theme: # 此项各个设定因主题而异
+  custom_dir: ../overrides # 覆盖目录
+  language: en # 主题语言
+  palette:
+    - media: "(prefers-color-scheme)" # 系统主题
+      toggle:
+        icon: material/theme-light-dark
+        name: System Mode
+    - media: "(prefers-color-scheme: light)" # 亮色主题
+      scheme: default
+      primary: white
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+    - media: "(prefers-color-scheme: dark)" # 暗色主题
+      scheme: slate
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+
+extra: # 额外设定
+  alternate:
+    - name: 简体中文
+      link: ../
+      lang: zh
+    - name: English
+      link: /
+      lang: en
+  status: # 元信息状态标识
+    new: Recently added
+    deprecated: Will be removed soon
+  social: # 社交联系方式（页面右下角内容）
+    - icon: fontawesome/brands/github
+      link: https://github.com/Xiaokang2022/Pretty-Mkdocs/
+      name: GitHub Repository
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:2951256653@qq.com
+      name: Contact the author
+  consent:
+    actions:
+      - accept
+      - reject
+      - manage
+    title: Cookie Consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  analytics: # 谷歌统计
+    provider: google
+    property: G-YX3K09DH4F
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Helpful
+          data: 1
+          note: Thanks for your feedback!
+        - icon: material/emoticon-neutral-outline
+          name: Just so-so
+          data: 0
+          note: Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: Could be improved
+          data: -1
+          note: Thanks for your feedback!
+
+nav:
+  - Home:
+      - Homepage: index.md
+      - License: LICENSE.md
+
+  - Introduction:
+      - introduction/index.md
+
+  - Tutorials:
+      - tutorials/index.md

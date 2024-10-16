@@ -122,6 +122,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
+site/
 
 # mypy
 .mypy_cache/
@@ -139,3 +140,5 @@ cython_debug/
 
 # build package
 setup.py
+
+.gitignore
