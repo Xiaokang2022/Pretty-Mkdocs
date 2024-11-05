@@ -1,10 +1,10 @@
-site_name: Pretty-Mkdocs # 站点名称
-site_url: https://Xiaokang2022.github.io/Pretty-Mkdocs/ # 站点链接
+site_name: Pretty Mkdocs # 站点名称
+site_url: htpps://github.com/Xiaokang2022.github.io/Pretty-Mkdocs/ # 站点链接
 repo_url: https://github.com/Xiaokang2022/Pretty-Mkdocs # 仓库地址
 repo_name: Xiaokang2022/Pretty-Mkdocs # 仓库名称
-edit_uri: edit/main/docs # 编辑地址
+edit_uri: edit/stable/docs # 编辑地址
 edit_uri_template: null # 编辑地址模板（默认值）
-site_description: Pretty-Mkdocs 的官方网站 # 站点描述
+site_description: Pretty Mkdocs 的官方网站 # 站点描述
 site_author: Xiaokang2022 # 站点作者
 copyright: <a href="#__consent">修改 Cookie 设置</a><br/>Copyright &copy; 2024 Xiaokang2022 # 版权信息和 Cookie 设置
 remote_branch: gh-pages # GitHub Pages 远程分支名称（默认值）
@@ -46,7 +46,7 @@ markdown_extensions:
       permalink_leading: false # 前置锚点链接（默认值），将锚点放到标题前面
       baselevel: 1 # 最高级别（默认值），往下顺延
       separator: "-" # 分隔符（默认值），替换空格字符
-      toc_depth: 4 # 目录显示级别
+      toc_depth: 4 # 目录显示级别（默认值）
       slugify:
         !!python/object/apply:pymdownx.slugs.slugify # 锚点链接 URL 格式（小写）
         kwds:
@@ -110,7 +110,7 @@ markdown_extensions:
   - pymdownx.highlight: # 代码高亮
       use_pygments: true # 使用 Pygments 而不是 JavaScript 来渲染高亮
       linenums: true # 显示行号（默认值）
-      linenums_style: pymdownx-inline # 行号样式 pymdownx-inline 或者 inline 和 table
+      linenums_style: table # 行号样式 pymdownx-inline 或者 inline 和 table，会影响行高亮样式
       anchor_linenums: true # 用锚链接包装代码行号，便于超链接和共享（就是行号可以像锚点一样被点击）
       line_spans: __span # 这对于高亮功能正常工作至关重要
       pygments_lang_class: true # 对于自定义注释标记的运行至关重要
@@ -130,7 +130,7 @@ markdown_extensions:
 
   - pymdownx.tabbed: # 选项卡
       alternate_style: true # 实验性样式
-      combine_header_slug: true # 选项卡 URL 带上父标题的前缀
+      combine_header_slug: true # 将父标题 slug 与选项卡内容 slug 合并【?】
       separator: "-" # 分隔符（默认值），替换空格字符
       slugify: !!python/object/apply:pymdownx.slugs.slugify {}
 
@@ -190,13 +190,13 @@ theme: # 此项各个设定因主题而异
     view: material/file-eye # 页面查看源代码的图标
 
 extra: # 额外设定
-  alternate:
-    - name: 简体中文
-      link: /
-      lang: zh
-    - name: English
-      link: ./en/
-      lang: en
+  # alternate:
+  #   - name: 简体中文
+  #     link: /
+  #     lang: zh
+  #   - name: English
+  #     link: ./en/
+  #     lang: en
   status: # 元信息状态标识
     new: 最近添加
     deprecated: 已废弃
@@ -217,7 +217,11 @@ extra: # 额外设定
       - reject
       - manage
     title: Cookie 设置
-    description: 我们使用 cookie 来识别您的重复访问和偏好，以及衡量我们文档的有效性和用户是否找到他们正在搜索的内容。<br/>在您的同意下，您将帮助我们改进我们的文档。
+    description: >-
+      我们使用 cookies 来识别您的重复访问和偏好，以及衡量我们文档的有效性和用户是否找
+      到他们正在搜索的内容。<br/>
+      在您的同意下，您将帮助我们改进我们的文档。<br/>
+      （您稍后仍可以在网页左下角重新修改 cookies 设置）
   analytics: # 谷歌统计
     provider: google
     property: G-YX3K09DH4F
@@ -238,10 +242,10 @@ extra: # 额外设定
           note: 感谢您的反馈！
 
 extra_javascript:
-  - javascript/shortcuts.js # 绑定左右键换页的键盘快捷键
-  - javascript/click-colorful.js # 鼠标点击效果
-  - javascript/mathjax.js # 数学表达式
-  - javascript/tablesort.js # 表格排序功能
+  - js/click-colorful.js # 鼠标点击效果
+  - js/shortcuts.js # 绑定左右键换页的键盘快捷键
+  - js/mathjax.js # 数学表达式
+  - js/tablesort.js # 表格排序功能
   - https://unpkg.com/mathjax@latest/es5/tex-mml-chtml.js # 数学表达式运行环境
   - https://unpkg.com/tablesort@latest/dist/tablesort.min.js # 表格排序功能运行环境（默认文本类型）
   - https://unpkg.com/tablesort@latest/dist/sorts/tablesort.date.min.js # 表格排序功能（日期类型）
@@ -252,8 +256,8 @@ extra_javascript:
 
 extra_css:
   - css/extra.css # 加载自定义的样式
-  - https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.5.0/style.min.css # 设置字体（霞鹜文楷）【版本不能再更高了，会导致公式字体变小】
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css # 图标字体库
+  - https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-screen-webfont/1.5.0/style.min.css # 设置字体（霞鹜文楷）【版本不能再更高了，会导致公式字体变小】
 
 plugins:
   - search
@@ -267,8 +271,8 @@ plugins:
       type: timeago
   - git-committers:
       repository: Xiaokang2022/Pretty-Mkdocs
-      branch: main
-      token: !ENV ["GH_TOKEN"] # 需要自行在终端中设置临时环境变量，强烈不建议显式地在此处设置 token
+      branch: stable
+      token: !ENV GH_TOKEN # 需要自行在终端中设置临时环境变量，强烈不建议显式地在此处设置 token
   - minify:
       minify_html: true
       htmlmin_opts:
