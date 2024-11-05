@@ -190,6 +190,9 @@ theme: # 此项各个设定因主题而异
     view: material/file-eye # 页面查看源代码的图标
 
 extra: # 额外设定
+  version:
+    provider: mike
+    alias: true
   alternate:
     - name: 简体中文
       link: /
