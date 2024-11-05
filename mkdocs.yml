@@ -197,6 +197,9 @@ extra: # 额外设定
   #   - name: English
   #     link: ./en/
   #     lang: en
+  version:
+    provider: mike
+    alias: true
   status: # 元信息状态标识
     new: 最近添加
     deprecated: 已废弃
