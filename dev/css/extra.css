@@ -146,3 +146,12 @@ figcaption {
 .heart {
     animation: heart 1000ms infinite;
 }
+
+@keyframes oml2d-stage-slide-in {
+    from {
+      transform: translateY(130%);
+    }
+    to {
+      transform: translateY(0%);
+    }
+  }

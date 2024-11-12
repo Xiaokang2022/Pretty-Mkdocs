@@ -2,7 +2,7 @@ OML2D.loadOml2d({
   parentElement: document.body,
   models: [
     {
-      path: "/Pretty-Mkdocs/dev/ATRI/atri_8.model3.json",
+      path: "/oh-my-mkdocs/dev/ATRI/atri_8.model3.json",
       position: [-100, 0],
       scale: 0.2,
       stageStyle: {
