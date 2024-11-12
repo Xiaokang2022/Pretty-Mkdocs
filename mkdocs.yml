@@ -58,9 +58,9 @@ markdown_extensions:
   # - pymdownx.b64 # 允许使用 base64 编码【?】
 
   # - pymdownx.progressbar # 进度条（暂不支持）
+  # - pymdownx.striphtml # 去除 HTML 中不需要的注释和 / 或标记属性，与插件 minify 有交叉但没有完全覆盖【大坑】
 
   - pymdownx.extra # 见上面 Python Markdown 配置说明
-  - pymdownx.striphtml # 去除 HTML 中不需要的注释和 / 或标记属性，与插件 minify 有交叉但没有完全覆盖
 
   - pymdownx.blocks.tab # 支持更高级的标签块写法（可能与 pymdownx.tabbed 混淆）
   - pymdownx.blocks.html # 支持一些更高级的 Markdown 内嵌 HTML 语法（pymdownx.blocks 默认开启）
