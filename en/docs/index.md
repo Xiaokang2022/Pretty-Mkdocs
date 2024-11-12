@@ -3,23 +3,23 @@ statistics: true
 comments: true
 ---
 
-<h1 align="center">Pretty-Mkdocs</h1>
+<h1 align="center">oh-my-mkdocs</h1>
 
 <p align="center">
 A super good-looking document or blog website template based on GitHub Pages!
 </p>
 
 <p align="center">
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/Xiaokang2022/Pretty-Mkdocs?label=Watchers&logo=github&style=flat" title="Watchers" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/forks"><img alt="Forks" src="https://img.shields.io/github/forks/Xiaokang2022/Pretty-Mkdocs?label=Forks&logo=github&style=flat" title="Forks" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Xiaokang2022/Pretty-Mkdocs?label=Stars&color=gold&logo=github&style=flat" title="Stars" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Xiaokang2022/Pretty-Mkdocs?label=Issues&logo=github" title="Issues" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/Xiaokang2022/Pretty-Mkdocs?label=Pull%20Requests&logo=github" title="Pull Requests" /></a>
-<a href="https://github.com/Xiaokang2022/Pretty-Mkdocs/discussions"><img alt="Discussions" src="https://img.shields.io/github/discussions/Xiaokang2022/Pretty-Mkdocs?label=Discussions&logo=github" title="Discussions" /></a>
+<a href="https://github.com/oh-my-mkdocs/oh-my-mkdocs/watchers"><img alt="Watchers" src="https://img.shields.io/github/watchers/oh-my-mkdocs/oh-my-mkdocs?label=Watchers&logo=github&style=flat" title="Watchers" /></a>
+<a href="https://github.com/oh-my-mkdocs/oh-my-mkdocs/forks"><img alt="Forks" src="https://img.shields.io/github/forks/oh-my-mkdocs/oh-my-mkdocs?label=Forks&logo=github&style=flat" title="Forks" /></a>
+<a href="https://github.com/oh-my-mkdocs/oh-my-mkdocs/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/oh-my-mkdocs/oh-my-mkdocs?label=Stars&color=gold&logo=github&style=flat" title="Stars" /></a>
+<a href="https://github.com/oh-my-mkdocs/oh-my-mkdocs/issues"><img alt="Issues" src="https://img.shields.io/github/issues/oh-my-mkdocs/oh-my-mkdocs?label=Issues&logo=github" title="Issues" /></a>
+<a href="https://github.com/oh-my-mkdocs/oh-my-mkdocs/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/oh-my-mkdocs/oh-my-mkdocs?label=Pull%20Requests&logo=github" title="Pull Requests" /></a>
+<a href="https://github.com/oh-my-mkdocs/oh-my-mkdocs/discussions"><img alt="Discussions" src="https://img.shields.io/github/discussions/oh-my-mkdocs/oh-my-mkdocs?label=Discussions&logo=github" title="Discussions" /></a>
 </p>
 
-![](https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date&theme=light#only-light)
-![](https://api.star-history.com/svg?repos=Xiaokang2022/Pretty-Mkdocs&type=Date&theme=dark#only-dark)
+![](https://api.star-history.com/svg?repos=oh-my-mkdocs/oh-my-mkdocs&type=Date&theme=light#only-light)
+![](https://api.star-history.com/svg?repos=oh-my-mkdocs/oh-my-mkdocs&type=Date&theme=dark#only-dark)
 
 !!! note "站点统计"
 

@@ -1,9 +1,9 @@
 INHERIT: ../mkdocs.yml
 
-site_url: https://Xiaokang2022.github.io/Pretty-Mkdocs/en/ # 站点链接
+site_url: https://oh-my-mkdocs.github.io/oh-my-mkdocs/en/ # 站点链接
 edit_uri: edit/main/en/docs # 编辑地址
-site_description: Official website of Pretty-Mkdocs # 站点描述
-copyright: <a href="#__consent">Change Cookie Settings</a><br/>Copyright &copy; 2024 Xiaokang2022 # 版权信息和 Cookie 设置
+site_description: Official website of oh-my-mkdocs # 站点描述
+copyright: <a href="#__consent">Change Cookie Settings</a><br/>Copyright &copy; 2024 oh-my-mkdocs # 版权信息和 Cookie 设置
 site_dir: ../site/en # 网站目录（默认值）
 
 theme: # 此项各个设定因主题而异
@@ -45,7 +45,7 @@ extra: # 额外设定
     deprecated: Deprecated
   social: # 社交联系方式（页面右下角内容）
     - icon: fontawesome/brands/github
-      link: https://github.com/Xiaokang2022/Pretty-Mkdocs/
+      link: https://github.com/oh-my-mkdocs/oh-my-mkdocs/
       name: GitHub Repository
     - icon: fontawesome/solid/paper-plane
       link: mailto:2951256653@qq.com
