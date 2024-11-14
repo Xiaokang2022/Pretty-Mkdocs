@@ -1,12 +1,12 @@
-site_name: Pretty-Mkdocs # 站点名称
-site_url: https://Xiaokang2022.github.io/Pretty-Mkdocs/ # 站点链接
-repo_url: https://github.com/Xiaokang2022/Pretty-Mkdocs # 仓库地址
-repo_name: Xiaokang2022/Pretty-Mkdocs # 仓库名称
+site_name: Oh my mkdocs # 站点名称
+site_url: https://oh-my-mkdocs.github.io/oh-my-mkdocs/ # 站点链接
+repo_url: https://github.com/oh-my-mkdocs/oh-my-mkdocs # 仓库地址
+repo_name: oh-my-mkdocs/oh-my-mkdocs # 仓库名称
 edit_uri: edit/main/docs # 编辑地址
 edit_uri_template: null # 编辑地址模板（默认值）
-site_description: Pretty-Mkdocs 的官方网站 # 站点描述
-site_author: Xiaokang2022 # 站点作者
-copyright: <a href="#__consent">修改 Cookie 设置</a><br/>Copyright &copy; 2024 Xiaokang2022 # 版权信息和 Cookie 设置
+site_description: Oh my mkdocs 的官方网站 # 站点描述
+site_author: oh-my-mkdocs # 站点作者
+copyright: <a href="#__consent">修改 Cookie 设置</a><br/>Copyright &copy; 2024 oh-my-mkdocs # 版权信息和 Cookie 设置
 remote_branch: gh-pages # GitHub Pages 远程分支名称（默认值）
 remote_name: origin # 远程名称（默认值）
 docs_dir: docs # 文档目录（默认值）
@@ -60,7 +60,7 @@ markdown_extensions:
   # - pymdownx.progressbar # 进度条（暂不支持）
 
   - pymdownx.extra # 见上面 Python Markdown 配置说明
-  - pymdownx.striphtml # 去除 HTML 中不需要的注释和 / 或标记属性，与插件 minify 有交叉但没有完全覆盖
+  # - pymdownx.striphtml # 去除 HTML 中不需要的注释和 / 或标记属性，与插件 minify 有交叉但没有完全覆盖
 
   - pymdownx.blocks.tab # 支持更高级的标签块写法（可能与 pymdownx.tabbed 混淆）
   - pymdownx.blocks.html # 支持一些更高级的 Markdown 内嵌 HTML 语法（pymdownx.blocks 默认开启）
@@ -209,11 +209,8 @@ extra: # 额外设定
     json: [.s2]
   social: # 社交联系方式（页面右下角内容）
     - icon: fontawesome/brands/github
-      link: https://github.com/Xiaokang2022/Pretty-Mkdocs/
+      link: https://github.com/oh-my-mkdocs/oh-my-mkdocs/
       name: GitHub 存储库
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:2951256653@qq.com
-      name: 联系作者
   consent:
     actions:
       - accept
@@ -249,6 +246,7 @@ extra_javascript:
   - js/click-colorful.js # 鼠标点击效果
   - js/mathjax.js # 数学表达式
   - js/tablesort.js # 表格排序功能
+  - js/canvas-nest.js # 背景图
   - js/background.js # 背景图
   - https://unpkg.com/mathjax@latest/es5/tex-mml-chtml.js # 数学表达式运行环境
   - https://unpkg.com/tablesort@latest/dist/tablesort.min.js # 表格排序功能运行环境（默认文本类型）
@@ -277,7 +275,7 @@ plugins:
       enable_creation_date: true
       type: timeago
   - git-committers:
-      repository: Xiaokang2022/Pretty-Mkdocs
+      repository: oh-my-mkdocs/oh-my-mkdocs
       branch: main
       token: !ENV GH_TOKEN # 需要自行在终端中设置临时环境变量，强烈不建议显式地在此处设置 token
   - minify:
